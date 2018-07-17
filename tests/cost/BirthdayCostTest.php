@@ -2,8 +2,8 @@
 
 namespace Tests\cost;
 
-use Koind\cost\BirthdayCost;
-use Koind\cost\DummyCost;
+use koind\cost\BirthdayCost;
+use koind\cost\DummyCost;
 use PHPUnit\Framework\TestCase;
 
 class BirthdayCostTest extends TestCase

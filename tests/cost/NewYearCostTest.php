@@ -2,8 +2,8 @@
 
 namespace Tests\cost;
 
-use Koind\cost\DummyCost;
-use Koind\cost\NewYearCost;
+use koind\cost\DummyCost;
+use koind\cost\NewYearCost;
 use PHPUnit\Framework\TestCase;
 
 class NewYearCostTest extends TestCase

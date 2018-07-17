@@ -1,9 +1,9 @@
 <?php
 
-namespace Koind;
+namespace koind;
 
-use Koind\cost\CalculatorInterface;
-use Koind\storage\StorageInterface;
+use koind\cost\CalculatorInterface;
+use koind\storage\StorageInterface;
 
 class Cart
 {
@@ -34,7 +34,7 @@ class Cart
         $this->saveItems();
     }
 
-    public function subtractCount(int $id, int $count, int $price)
+    public function subtractCount(int $id, int $count, int $price): void
     {
         $this->loadItems();
         if (!isset($this->items[$id])) {

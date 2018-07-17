@@ -2,8 +2,8 @@
 
 namespace Tests\cost;
 
-use Koind\cost\DummyCost;
-use Koind\cost\MinCost;
+use koind\cost\DummyCost;
+use koind\cost\MinCost;
 use PHPUnit\Framework\TestCase;
 
 class MinCostTest extends TestCase

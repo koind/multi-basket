@@ -2,8 +2,8 @@
 
 namespace Tests\storage;
 
-use Koind\CartItem;
-use Koind\storage\SessionStorage;
+use koind\CartItem;
+use koind\storage\SessionStorage;
 use PHPUnit\Framework\TestCase;
 
 class SessionStorageTest extends TestCase

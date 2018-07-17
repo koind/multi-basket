@@ -1,6 +1,6 @@
 <?php
 
-namespace Koind;
+namespace koind;
 
 class CartItem
 {
@@ -15,22 +15,22 @@ class CartItem
         $this->price = $price;
     }
 
-    public function getId()
+    public function getId(): int
     {
         return $this->id;
     }
 
-    public function getCount()
+    public function getCount(): float
     {
         return $this->count;
     }
 
-    public function getPrice()
+    public function getPrice(): float
     {
         return $this->price;
     }
 
-    public function getCost()
+    public function getCost(): float
     {
         return $this->price * $this->count;
     }

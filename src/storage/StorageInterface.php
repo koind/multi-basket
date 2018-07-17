@@ -1,8 +1,8 @@
 <?php
 
-namespace Koind\storage;
+namespace koind\storage;
 
-use Koind\CartItem;
+use koind\CartItem;
 
 interface StorageInterface
 {

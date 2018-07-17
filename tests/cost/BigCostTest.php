@@ -2,8 +2,8 @@
 
 namespace Tests\cost;
 
-use Koind\cost\BigCost;
-use Koind\cost\DummyCost;
+use koind\cost\BigCost;
+use koind\cost\DummyCost;
 use PHPUnit\Framework\TestCase;
 
 class BigCostTest extends TestCase

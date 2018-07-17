@@ -1,8 +1,8 @@
 <?php
 
-namespace Koind\storage;
+namespace koind\storage;
 
-use Koind\CartItem;
+use koind\CartItem;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Contracts\Session\Session;
 

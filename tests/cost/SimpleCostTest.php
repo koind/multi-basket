@@ -2,8 +2,8 @@
 
 namespace Tests\cost;
 
-use Koind\CartItem;
-use Koind\cost\SimpleCost;
+use koind\CartItem;
+use koind\cost\SimpleCost;
 use PHPUnit\Framework\TestCase;
 
 class SimpleCostTest extends TestCase

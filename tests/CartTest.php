@@ -2,9 +2,9 @@
 
 namespace Tests;
 
-use Koind\Cart;
-use Koind\cost\SimpleCost;
-use Koind\storage\MemoryStorage;
+use koind\Cart;
+use koind\cost\SimpleCost;
+use koind\storage\MemoryStorage;
 use PHPUnit\Framework\TestCase;
 
 class CartTest extends TestCase

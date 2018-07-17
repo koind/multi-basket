@@ -2,8 +2,8 @@
 
 namespace Tests\cost;
 
-use Koind\cost\DummyCost;
-use Koind\cost\FridayCost;
+use koind\cost\DummyCost;
+use koind\cost\FridayCost;
 use PHPUnit\Framework\TestCase;
 
 class FridayCostTest extends TestCase

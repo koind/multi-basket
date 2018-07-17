@@ -1,8 +1,8 @@
 <?php
 
-namespace Koind\cost;
+namespace koind\cost;
 
-use Koind\CartItem;
+use koind\CartItem;
 
 class DummyCost implements CalculatorInterface
 {

@@ -1,0 +1,26 @@
+<?php
+
+namespace Koind\storage;
+
+use Koind\CartItem;
+
+class MemoryStorage implements StorageInterface
+{
+    private $items = [];
+
+    /**
+     * @return CartItem[]
+     */
+    public function load(): array
+    {
+        return $this->items;
+    }
+
+    /**
+     * @param CartItem[] $items
+     */
+    public function save(array $items): void
+    {
+        $this->items = $items;
+    }
+}
